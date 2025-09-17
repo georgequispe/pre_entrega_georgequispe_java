@@ -1,3 +1,4 @@
+package miproyecto;
 import java.util.Scanner; // Importamos la clase para leer datos
 
 public class App { // Nombre de la clase
@@ -42,14 +43,12 @@ public class App { // Nombre de la clase
                 System.out.println("Cantidad de " + (i == 1 ?
                  nombreProducto : i == 2 ?
                  nombreProducto2 : nombreProducto3) + ": " + (i == 1 ? cantidad1 : i == 2 ? cantidad2 : cantidad3));
-            System.out.println("\n--- Resumen de Cantidades ---");
-            for (int i = 0; i < NUMERO_PRODUCTOS; i++) {
-                System.out.println("Cantidad de " + nombresProductos[i] + ": " + cantidades[i]);
             }
-    } else {
-        } else {
-            System.out.println("Gracias por usar el programa.");
         }
+        System.out.println("\n--- Resumen de Cantidades ---");
+        for (int i = 0; i < NUMERO_PRODUCTOS; i++) {
+            System.out.println("Cantidad de " + nombresProductos[i] + ": " + cantidades[i]);
+            }
         scanner.close(); // Cerramos el lector de teclado
-    }
+    } 
 }
