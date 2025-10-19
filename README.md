@@ -1,18 +1,14 @@
-## Getting Started
+# Proyecto: Verdulería "LA SALUDABLE"
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un sistema de gestión de inventario simple para una verdulería, desarrollado en Java como una aplicación de consola.
 
-## Folder Structure
+## Características Principales
 
-The workspace contains two folders by default, where:
+- **Gestión de Productos (CRUD):** Permite crear, listar, actualizar y eliminar productos.
+- **Gestión de Categorías (CRUD):** Permite administrar las categorías a las que pertenecen los productos (ej. Frutas, Verduras).
+- **Cálculo de Descuentos:** Implementa una lógica simple para calcular precios con descuento por pago en efectivo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnología
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Lenguaje:** Java
+- **Entorno:** Aplicación de consola

@@ -1,0 +1,10 @@
+# Archivos compilados de Java
+*.class
+bin/
+
+# Carpetas de otros proyectos que no quiero subir
+crudpoo/
+ejercicios/
+
+# Archivos de configuración del editor
+.vscode/
